@@ -1,0 +1,14 @@
+# Python编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+# 虚拟环境
+.venv/
+venv/
+env/
+# 系统文件
+.DS_Store
+Thumbs.db
+# 日志/临时文件
+*.log
+tmp/
