@@ -61,7 +61,7 @@ def calculate_dir_size(directory: str) -> Union[int, float]:
     except PermissionError:
         print(f"{Fore.YELLOW}⚠️  警告：无权访问目录，跳过 -> {directory}")
     except Exception as e:
-        print(f"{Fore.RED}❌ 错误：处理目录失败 -> {directory}，错误：{str(e)}")
+        print(f"{Fore.RED} 错误：处理目录失败 -> {directory}，错误：{str(e)}")
     
     return total_size
 
